@@ -7,3 +7,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #4 - Added note data to _functions.js note file.
 - Commit #5 - Wrote a large portion of data to the _objects-classes-inheritance.js note file.
 - Commit #6 - Restructured directories. Renamed _variables.js, _functions.js & _objects.js.
+- Commit #7 - Added _conditionals notes & individual .html files for each sub-folder topic.
