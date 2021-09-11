@@ -1,12 +1,17 @@
 // TODO: JavaScript Arrays
 // We can use JavaScript arrays to store multiple values in a single variable.
-// An array is a special variable, which can hold more than one value at a time.
 // * Arrays ARE Objects. If we use the 'typeof' method on an array it will return as an object, but JavaScript arrays are still best described as arrays.
+
+// ? Array Index Number? !
 // Array items are accessed by using the array index number [0], whereas object values are accessed via .dot notation or bracket notation by the 'key' name.
 
 // * We can have variables of different types within an array. We can have objects, functions and other arrays within an array.
 
+// ? Static Order !
 // ? Arrays maintain their order in a static order UNLESS specifically mutated in such as way that makes it dynamic (via methods or manually).
+
+// ? Storing Arrays in Const !
+// ? A very common convention is to store an array in a const, but this can be a little misleading. An array stored in a const is not an immutable array. Assigning an array to a 'const' does NOT define a constant array. It defines a constant reference to an array.
 
 // * When should we use an object or an array??
 // * We should use objects when we want the element names to be strings.
@@ -89,13 +94,70 @@ console.log(carsArray1[carsArray1.length - 1]) // will return "Audi"
 
 
 // TODO: Adding Array Elements
+// ? Adding an element to the END of an Array.
 // The easiest way to add a new element to an array is to use the .push() method.
 // The .push() method will add the new item to the **END** of the array.
+// The .push() method will return the NEW ARRAY LENGTH.
 const fruits1 = [
     "Banana",
     "Oranges",
     "Apples",
     "Kiwi"
 ]
-fruits1.push("Tangerine") // will add this item to the array end
-console.log(fruits1) // we'll now see "Tangerine" added to the end.
+let fruitPush = fruits1.push("Tangerine") // will add this item to the array end
+console.log(`The length of this array is now: ${fruitPush}`) // we'll now see "Tangerine" added to the end.
+
+
+// ? Adding an element to the BEGINNING of an Array.
+// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements, meaning it 'shifts' down their index number.
+// Like .push() the unshift() method returns the NEW ARRAY LENGTH.
+const fruits2 = [
+    "Robert",
+    "Kiwi",
+    "Plum",
+    "Tangerine",
+    "Apricot",
+]
+let fruitsUnshift = fruits2.unshift()
+console.log(`The length of this array is now: ${fruitsUnshift}`)
+
+
+
+// TODO: Removing Array Elements
+// ? Removing an element from the END of an Array.
+// The .pop() method removes the LAST element from an array.
+// The .pop() method will return the value that it 'pops'.
+const girlNames = [
+    "Sarah",
+    "Heather",
+    "Julia",
+    "Tracy",
+    "Lauren",
+    "John"
+]
+let girlNamesPop = girlNames.pop() // will 'pop-off' "John"
+console.log(`We just popped-off "${girlNamesPop}" from the array! (Sounds kind of rude, doesn't it?)`)
+
+
+
+
+// ? Removing an element from the BEGINNING of an Array.
+// The shift() method removes the first array element and "shifts" all other elements to a lower index.
+// The shift() method will return the value that it 'shifts'.
+const girlNames2 = [
+    "Frederick",
+    "Sarah",
+    "Heather",
+    "Julia",
+    "Tracy",
+    "Lauren",
+]
+let girlNamesShift = girlNames2.shift() // removes "Frederick" and shifts down the indexPos.
+console.log(`We just shifted "${girlNamesShift}" from the array!`)
+
+
+
+// Other Common Array Methods
+// .toString()
+// .join()
+// 
