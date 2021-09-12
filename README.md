@@ -20,3 +20,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #17 - Changed the filename _JSON-string.js to _JSON-stringify.js to match method.
 - Commit #18 - Tweaked _arrays-arrayMethods.js file formatting.
 - Commit #19 - Tweaked _arrays-arrayIteration.js file formatting.
+- Commit #20 - Changed folder name to _array to match other folder formatting.
