@@ -104,6 +104,9 @@ console.log(carsArray1[carsArray1.length - 1]) // will return "Audi"
 
 // TODO =================================== //
 // TODO: Adding Array Elements
+// TODO =================================== //
+
+// TODO: The .push() Method
 // ? Adding an element to the END of an Array.
 // The easiest way to add a new element to an array is to use the .push() method.
 // The .push() method will add the new item to the **END** of the array.
@@ -117,6 +120,8 @@ const fruits1 = [
 let fruitPush = fruits1.push("Tangerine") // will add this item to the array end
 console.log(`The length of this array is now: ${fruitPush}`) // we'll now see "Tangerine" added to the end.
 
+
+// TODO: The .unshift() Method
 // ? Adding an element to the BEGINNING of an Array.
 // The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements, meaning it 'shifts' down their index number.
 // Like .push() the unshift() method returns the NEW ARRAY LENGTH.
@@ -134,6 +139,9 @@ console.log(`The length of this array is now: ${fruitsUnshift}`)
 
 // TODO =================================== //
 // TODO: Removing Array Elements
+// TODO =================================== //
+
+// TODO : The .pop() Method
 // ? Removing an element from the END of an Array.
 // The .pop() method removes the LAST element from an array.
 // The .pop() method will return the value that it 'pops'.
@@ -148,6 +156,8 @@ const girlNames = [
 let girlNamesPop = girlNames.pop() // will 'pop-off' "John"
 console.log(`We just popped-off "${girlNamesPop}" from the array! (Sounds kind of rude, doesn't it?)`)
 
+
+// TODO: The .shift() Method
 // ? Removing an element from the BEGINNING of an Array.
 // The shift() method removes the first array element and "shifts" all other elements to a lower index.
 // The shift() method will return the value that it 'shifts'.
@@ -166,83 +176,12 @@ console.log(`We just shifted "${girlNamesShift}" from the array!`)
 
 // TODO =================================== //
 // TODO: Searching Arrays
-// ? The .includes() method.
-// The includes() method returns true if an array contains a specified element, otherwise false. This only works with primitive elements such as strings, numbers or booleans.
-const ASMRtists = [
-    "Uying",
-    "HeatheredEffect",
-    "Luna Rexx",
-    "Maddy",
-    "Wokies"
-]
-let asmrtistsValue = ASMRtists.includes("HeatheredEffect")
-console.log(`Does this Array include "${ASMRtists[1]}"? ${asmrtistsValue}`)
 
-// If we wanted to check an array containing Objects to see if one or more elements meets a given condition, we can use the .some() method.
-// Imagine we have the follow array that contains the following objects.
-const temperatures = [{
-        temp: 28,
-        humidity: 42,
-        isRecordTemp: false
-    },
-    {
-        temp: 25,
-        humidity: 37,
-        isRecordTemp: false
-    },
-    {
-        temp: 33,
-        humidity: 67,
-        isRecordTemp: true
-    },
-    {
-        temp: 27,
-        humidity: 40,
-        isRecordTemp: false
-    }
-]
-// like many powerful array methods, the .some() method requires a function to be passed within it to work properly; and with this function we can provide our conditional check.
-
-// the .some() method, with the function provided will iterate through all of the elements within the object, within the array and if ONE of the values is present, it will return true.
-let recordTemp = temperatures.some((temperature) => temperature.isRecordTemp === true) // t/f?
-console.log(`Was there a record temperature in the above temperatures? ${recordTemp}`)
-// the above method was written using arrow functions for quick and clean code, but until I'm familiar with this, it can be a little confusing to look at.
-// to put it simply, as mentioned above, the .some() method requires a function as a parameter to provide the conditional check of what you're looking for. This same thing could have been written as a standard named function and passed into the .some() method.
-// Another example below, using a slightly more verbose method.
-let recordTemp2 = temperatures.some(highHumidity)
-
-function highHumidity(humid) {
-    return humid.humidity >= 65
-}
-console.log(`Was there high humidity on any of the days? ${recordTemp2}`)
-
-
-// ? The .every() method.
-// The every() method returns true if all elements in an array pass a test (provided as a function).
-// We'll check the above 'temperatures' array to see if every temperature is above 20 (celsius).
-const tempToCheck = 20
-const aboveTwenty = temperatures.every((temps) => temps.temp >= tempToCheck)
-if (aboveTwenty) {
-    console.log(`Yes, the temperature each day above ${tempToCheck}!`)
-} else {
-    console.log(`No, the temperature each day is NOT above ${tempToCheck}!`)
-}
 
 
 
 // TODO =================================== //
 // TODO: Performing Actions on Chosen Elements of an Array
-// ? The .map() method.
-
-
-
-
-
-
-
-
-
-// ? The .forEach() method.
 
 
 
