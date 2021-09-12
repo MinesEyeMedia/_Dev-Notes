@@ -189,29 +189,31 @@ const vehicles = [{
         price: 145000
     }
 ]
+// create a new array based on the filter that 'make' is "Tesla".
 const teslas = vehicles.filter(car => car.make === "Tesla")
-
+// loop through the results of the new array created from filter.
 for (let i = 0; i < teslas.length; i++) {
     console.log(teslas[i])
 }
-
-const highestPriceTeslas = vehicles.filter(function(vehicle) {
-    vehicle.make === "Tesla"
-    vehicle.price >= 100000
+// a filter that checks for "Tesla" make and >= 100,000 price.
+const highestPriceTeslas = vehicles.filter(function (vehicle) {
+    return vehicle.make === "Tesla" && vehicle.price >= 100000
 })
 console.log(highestPriceTeslas)
 
 
 
-
-
-
-
 // TODO: The .find() Method
+// The find() method returns the value of the first array element that passes a test function.
+// Using our vehicles array from above, we'll find anything that contains "Audi".
+const findCybertruck = vehicles.find(vehicle => vehicle.make.toLowerCase().includes("tesla") && vehicle.model.toLowerCase().includes("cybertruck"))
+console.log(findCybertruck)
+
+
+
+
+
 // TODO: The .findIndex() Method
-
-
-
 
 
 
