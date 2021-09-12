@@ -28,6 +28,12 @@ let car3 = "Tesla"
 // An array can hold many values under a single name, and you can access the values by referring to an index number.
 
 
+// * * *
+console.log("=================================")
+console.log("=== JAVASCRIPT COMMON METHODS ===")
+console.log("=================================")
+// * * *
+
 
 // TODO =================================== //
 // TODO: Array Creation/Declaration
