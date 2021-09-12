@@ -155,6 +155,57 @@ console.log(`Where is the indexPos of the LAST occurrence of "Jacob": ${whereLas
 
 
 
+// TODO: The .filter() Method
+// The filter() method creates a NEW ARRAY with array elements that pass a specific test.
+// Below we have a simple array consisting of objects with car make/models. We're going to set up a .filter() method that looks for the name "Tesla".
+const vehicles = [{
+        make: "Ford",
+        model: "Focus",
+        price: 30000
+    },
+    {
+        make: "Tesla",
+        model: "Model Y",
+        price: 105000
+    },
+    {
+        make: "Audi",
+        model: "A4",
+        price: 85000
+    },
+    {
+        make: "Chevrolet",
+        model: "Camaro",
+        price: 76000
+    },
+    {
+        make: "Tesla",
+        model: "Model 3",
+        price: 65000
+    },
+    {
+        make: "Tesla",
+        model: "Cybertruck",
+        price: 145000
+    }
+]
+const teslas = vehicles.filter(car => car.make === "Tesla")
+
+for (let i = 0; i < teslas.length; i++) {
+    console.log(teslas[i])
+}
+
+const highestPriceTeslas = vehicles.filter(function(vehicle) {
+    vehicle.make === "Tesla"
+    vehicle.price >= 100000
+})
+console.log(highestPriceTeslas)
+
+
+
+
+
+
 
 // TODO: The .find() Method
 // TODO: The .findIndex() Method
@@ -163,7 +214,7 @@ console.log(`Where is the indexPos of the LAST occurrence of "Jacob": ${whereLas
 
 
 
-// TODO: The .filter() Method
+
 
 // TODO: The .reduce() Method
 // TODO: The .reduceRight() Method
