@@ -17,3 +17,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #14 - Created & added to _JSON-general.js.
 - Commit #15 - Created & added to _JSON-parse.js
 - Commit #16 - Created & added to _JSON-string.js
+- Commit #17 - Changed the filename _JSON-string.js to _JSON-stringify.js to match method.
