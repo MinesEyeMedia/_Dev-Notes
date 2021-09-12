@@ -11,3 +11,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #8 - Added note data to the _maps.js note file.
 - Commit #9 - Added note data to the _arrays-arrayMethods.js note file.
 - Commit #10 - Added more note data to the _arrays-arrayMethods.js note file.
+- Commit #11 - Added more note data to the _arrays-arrayMethods.js note file.
