@@ -42,3 +42,45 @@ const bodyFooterEl = document.querySelector(".body-footer")
 containerEl.insertBefore(newPara, bodyFooterEl) // (newNode, existingChildNode)
 
 
+
+// TODO: ================================== //
+// TODO: Removing a Child Element/Node      //
+// TODO: ================================== //
+
+// * To remove an HTML element, we can simply use the remove() method:
+// <div>
+//   <p id="p1">This is a paragraph.</p>
+//   <p id="p2">This is another paragraph.</p>
+// </div>
+
+// ? We'll find the element we want to remove:
+const p1El = document.querySelector("#p1")
+p1El.remove() // yes, it's actually as simple as that, however...
+
+// * The remove() method does not work in older browsers, see the example below on how to use removeChild() instead.
+
+
+
+// TODO: ================================== //
+// TODO: Replacing HTML Elements            //
+// TODO: ================================== //
+
+// * To replace an element, we can use the replaceChild() method:
+// <div class="container">
+//   <p id="p1">This is a paragraph.</p>
+//   <p id="p2">This is another paragraph.</p>
+// </div>
+
+// we'll grab the container AND item to be replaced
+const containerEl = document.querySelector(".container")
+const p2El = document.querySelector("#p2")
+
+// and now we'll create the elements and append as we have been
+const newPara2 = document.createElement("p")
+const newText2 = document.createTextNode("New text will go here.")
+newPara2.appendChild(newText2)
+
+// ? and now we'll use the replaceChild() method to replace or swap.
+// ? this method takes 2 params, one is the new item to replace and the other as one would imagine, is the one being swapped out.
+// we've already grabbed the parent and element being swapped above
+containerEl.replaceChild(newPara2, p2El) // (newElement, elementToBeReplaced)
