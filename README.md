@@ -27,3 +27,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #24 - Created _creating-new-elements.js and added notes.
 - Commit #25 - Added to _creating-new-elements.js
 - Commit #26 - Created folder _general-methods and moved _dom-methods.js into it.
+- Commit #27 - Created _date folder & _date-general.js.
