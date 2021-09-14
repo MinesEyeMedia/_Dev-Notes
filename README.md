@@ -29,3 +29,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #26 - Created folder _general-methods and moved _dom-methods.js into it.
 - Commit #27 - Created _date folder & _date-general.js.
 - Commit #28 - Created and added to _date-methods.js
+- Commit #29 - Updated _date-general.js

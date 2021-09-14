@@ -2,9 +2,9 @@
 // TODO: The JavaScript Date & Methods      //
 // TODO: ================================== //
 
-console.log(`=========================================`)
-console.log(`== TODO: The JavaScript Date & Methods ==`)
-console.log(`=========================================`)
+console.log(`===================================`)
+console.log(`== The JavaScript Date & Methods ==`)
+console.log(`===================================`)
 
 // * Date objects are created with the new Date() constructor.
 
