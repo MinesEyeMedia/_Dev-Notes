@@ -26,3 +26,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #23 - Created _event-listeners folder and added _event-listeners.js
 - Commit #24 - Created _creating-new-elements.js and added notes.
 - Commit #25 - Added to _creating-new-elements.js
+- Commit #26 - Created folder _general-methods and moved _dom-methods.js into it.
