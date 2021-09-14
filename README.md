@@ -32,3 +32,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #29 - Updated _date-general.js
 - Commit #30 - Added to _date-methods.js
 - Commit #31 - Created & added to _math.js.
+- Commit #32 - Created & wrote _http-status-codes.md.
