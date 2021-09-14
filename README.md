@@ -24,3 +24,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #21 - Created & added to _classes.js & classes.html files.
 - Commit #22 - Created _DOM folder and added _dom-methods.js.
 - Commit #23 - Created _event-listeners folder and added _event-listeners.js
+- Commit #24 - Created _creating-new-elements.js and added notes.
