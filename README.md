@@ -35,3 +35,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #32 - Created & wrote _http-status-codes.md.
 - Commit #33 - Created & wrote _fetch.js & _fetch.html.
 - Commit #34 - Created & wrote _callbacks.js page.
+- Commit #35 - Created & wrote _async.html, _promises.js & _asynchronous.js.
