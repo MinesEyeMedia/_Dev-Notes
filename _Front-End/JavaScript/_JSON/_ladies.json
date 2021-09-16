@@ -1,0 +1,61 @@
+{
+    "girl1": {
+        "firstName": "Melgine",
+        "lastName": "Olais",
+        "age": 35,
+        "occupation": "BPO Agent",
+        "relationshipStatus": "Taken",
+        "parterName": "Jacob",
+        "sexualPref": "Straight"
+    },
+
+    "girl2": {
+        "firstName": "Janice",
+        "lastName": "Garcia",
+        "age": 30,
+        "occupation": "BPO Agent",
+        "relationshipStatus": "Married",
+        "parterName": "Joe",
+        "sexualPref": "Straight"
+    },
+
+    "girl3": {
+        "firstName": "Charis",
+        "lastName": "Olais",
+        "age": 28,
+        "occupation": "Sales Rep",
+        "relationshipStatus": "Taken",
+        "parterName": "Eddie",
+        "sexualPref": "Straight"
+    },
+
+    "girl4": {
+        "firstName": "Jessa Mae",
+        "lastName": "Olais",
+        "age": 25,
+        "occupation": "Online English Teacher",
+        "relationshipStatus": "Taken",
+        "parterName": "Jack",
+        "sexualPref": "Straight"
+    },
+
+    "girl5": {
+        "firstName": "Jay Ann",
+        "lastName": "Olais",
+        "age": 20,
+        "occupation": "Unemployed",
+        "relationshipStatus": "Taken",
+        "parterName": "Ryan",
+        "sexualPref": "Straight"
+    },
+
+    "girl6": {
+        "firstName": "Jenny Rose",
+        "lastName": "Olais",
+        "age": 18,
+        "occupation": "Student",
+        "relationshipStatus": "Single",
+        "parterName": "N/A",
+        "sexualPref": "Straight"
+    }
+}

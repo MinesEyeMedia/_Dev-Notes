@@ -39,3 +39,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #36 - Created _async-await.js. Needs more work done on file.
 - Commit #37 - Created & wrote _loops.js & _loops.html.
 - Commit #38 - Created & wrote _JSON-testing.js & _JSON-testing.html.
+- Commit #39 - Created & wrote _ladies.json for dummy data.
