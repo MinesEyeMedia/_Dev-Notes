@@ -1,0 +1,98 @@
+/* Navbar #1 */
+/* Variables */
+/* /Variables */
+/* Utilities */
+.mark1 {
+  border: 1px solid blue;
+}
+
+.mark2 {
+  border: 1px solid pink;
+}
+
+.mark3 {
+  border: 1px solid fuchsia;
+}
+
+/* /Utilities */
+/* Main Overrides & Sets */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #4A4A48;
+  font-weight: 400;
+  background-color: #4A4A48;
+}
+
+/* Navigation (Navbar) */
+#nav-bar {
+  background-color: #D8DAD3;
+  height: 60px;
+}
+
+.nav-wrap {
+  margin: 0 auto;
+  width: 1600px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav h2 {
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 135px;
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.52em;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin-right: 60px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  color: #4A4A48;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li a {
+  padding-bottom: 3px;
+}
+
+li a:hover, li a :focus {
+  color: #71716e;
+}
+
+.active {
+  border-bottom: 2px solid #566246;
+}
+/*# sourceMappingURL=main.css.map */

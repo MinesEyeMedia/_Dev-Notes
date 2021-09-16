@@ -1,0 +1,94 @@
+/* Navbar #1 */
+
+/* Variables */
+$primary: #4A4A48;
+$accent: #D8DAD3;
+$accent-green: #566246;
+$text: $primary;
+$font-stack: 'Montserrat', sans-serif;
+/* /Variables */
+
+/* Utilities */
+.mark1 {
+    border: 1px solid blue;
+}
+
+.mark2 {
+    border: 1px solid pink;
+}
+
+.mark3 {
+    border: 1px solid fuchsia;
+}
+/* /Utilities */
+
+/* Main Overrides & Sets */
+body {
+    margin: 0;
+    font-family: $font-stack;
+    color: $text;
+    font-weight: 400;
+    background-color: $primary;
+}
+
+
+/* Navigation (Navbar) */
+#nav-bar {
+    background-color: $accent;
+    height: 60px;
+}
+
+.nav-wrap {
+    margin: 0 auto;
+    width: 1600px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 135px;
+    font-size: 1.35rem;
+    font-weight: 500;
+    letter-spacing: 0.52em;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin-right: 60px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+a {
+    color: $text;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a {
+    padding-bottom: 3px;
+    &:hover, :focus {
+        color: lighten($color: $text, $amount: 15%);
+    }
+}
+
+.active {
+    border-bottom: 2px solid $accent-green;
+}

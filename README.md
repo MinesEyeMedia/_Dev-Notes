@@ -41,3 +41,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #38 - Created & wrote _JSON-testing.js & _JSON-testing.html.
 - Commit #39 - Created & wrote _ladies.json for dummy data.
 - Commit #40 - Created _normalize-x.css; a custom CSS normalizer.
+- Commit #41 - Created _navbar1; a testing navbar project.
