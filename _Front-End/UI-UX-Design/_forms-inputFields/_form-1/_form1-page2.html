@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../HTML & CSS/CSS/_normalize-x.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Styling Forms & Input Fields #1</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Become a Member!</h1>
+        <ul class="progress">
+            <li class="">
+                <a href="_form1-page1.html">
+                    <div class="circle">1</div>
+                    <span>Account</span>
+                </a>
+            </li>
+            <li class="current">
+                <a href="_form1-page2.html">
+                    <div class="circle">2</div>
+                    <span>Details</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="_form1-page3.html">
+                    <div class="circle">3</div>
+                    <span>Confirmation</span>
+                </a>
+            </li>
+        </ul>
+
+        <main>
+            <div class="left-col">
+                <h2>Details</h2>
+
+                <label for="loc">Country</label>
+                <select name="loc" id="loc">
+                    <option value="CAN">Canada</option>
+                    <option value="US">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="PHP">Philippines</option>
+                    <option value="JAP">Japan</option>
+                    <option value="KOR">Korea</option>
+                    <option value="BZL">Brazil</option>
+                </select>
+
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender" checked>
+                <label for="male" class="left-label">Male</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female" class="left-label">Female</label>
+
+                <label for="bio" class="mt-extra">Biography</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <a href="_form1-page3.html" class="cta">Next</a>
+            </div>
+            <div class="right-col">
+                <p><strong>Note:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam
+                    consectetur quaerat? Rerum ad libero, quae error dolores aspernatur a harum dolorum perferendis
+                    animi.</p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

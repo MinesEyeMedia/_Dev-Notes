@@ -44,3 +44,4 @@ A place to store all development related notes, from front-end to back-end to de
 - Commit #41 - Created _navbar1; a testing navbar project.
 - Commit #42 - Reorganized HTML & CSS sub-folder structure.
 - Commit #43 - Created & wrote _forms-inputFields/_general-notes.md.
+- Commit #44 - Finished _forms-1 project, a study of form UI/UX.
